@@ -1,0 +1,30 @@
+digraph {
+	acquisition [label="Data
+Acquisition"]
+	preprocessing [label=Preprocessing]
+	feature_extraction [label="Feature
+Extraction"]
+	feature_selection [label="Feature
+Selection"]
+	training [label="Classification Model
+Training"]
+	evaluation [label="Model
+Evaluation"]
+	optimization [label="Optimization
+and Fine-tuning"]
+	testing [label="Testing
+and Validation"]
+	interpretation [label="Interpretation
+and Analysis"]
+	refinement [label="Iterative
+Refinement"]
+	acquisition -> preprocessing
+	preprocessing -> feature_extraction
+	feature_extraction -> feature_selection
+	feature_selection -> training
+	training -> evaluation
+	evaluation -> optimization
+	optimization -> testing
+	testing -> interpretation
+	interpretation -> refinement
+}

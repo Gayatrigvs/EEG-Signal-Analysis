@@ -1,0 +1,7 @@
+digraph "Traditional EEG Signal Analysis Process" {
+	graph [fontcolor="#2D3436" fontname="Sans-Serif" fontsize=15 label="Traditional EEG Signal Analysis Process" nodesep=0.60 pad=2.0 rankdir=LR ranksep=0.75 splines=ortho]
+	node [fixedsize=true fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13 height=1.4 imagescale=true labelloc=b shape=box style=rounded width=1.4]
+	edge [color="#7B8894"]
+	"06a035283546429395eca216e8aa6caa" [label="Data
+Acquisition" height=2.3 image="C:\Users\Gayatri\AppData\Roaming\Python\Python39\site-packages\resources/onprem/client\user.png" shape=none]
+}
